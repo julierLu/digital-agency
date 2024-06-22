@@ -3,119 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Sandbox</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="logo">
-            <img src="images/logo-dark.svg" alt="logo-image">
-        </div>
         <nav>
-            <ul>
+            <div class="logo">
+                <img src="images/logo-dark.svg" alt="logo-image">
+            </div>
+            <!--<ul class="nav-menu">
                 <li><a href="/" class="nav-link">Demos</a></li>
                 <li><a href="/" class="nav-link">Pages</a></li>
                 <li><a href="/" class="nav-link">Projects</a></li>
                 <li><a href="/" class="nav-link">Blog</a></li>
                 <li><a href="/" class="nav-link">Blocks</a></li>
                 <li><a href="/" class="nav-link">Documentation</a></li>
-            </ul>
+                <li><a href="/" class="nav-link contact-btn">Contact</a></li>
+            </ul> -->
+            <i class="fa-solid fa-bars"></i>
         </nav>
-        <div class="contact-btn">
-            <a href="/" class="btn-link">Contact</a>
-        </div>
     </header>
 
     <!-- Home -->
-    <section id="home">
-        <div class="first-container">
-            <h1>A digital agency specializing on <span>mobile design</span></h1>
-            <p>We are an award winning design agency that strongly believes in the power of creative ideas.</p>
-            <div class="common-btn">
-                <a href="/" class="btn-link">Get Started</a>
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="first-container">
+                    <h1>A digital agency specializing on <span>mobile design</span></h1>
+                    <p>We are an award winning design agency that strongly believes in the power of creative ideas.</p>
+                    <div class="common-btn">
+                        <a href="/" class="btn-link">Get Started</a>
+                    </div>
+                    <img src="images/home.svg" alt="home-image">
+                </div>
+                <div class="second-container">
+                    <p>Trusted by over 2K+ clients across the world</p>
+                    <div class="sponsor">
+                        <img src="images/e1.svg" alt="sponsor-1">
+                        <img src="images/e2.svg" alt="sponsor-2">
+                        <img src="images/e3.svg" alt="sponsor-3">
+                        <img src="images/e4.svg" alt="sponsor-4">
+                        <img src="images/e5.svg" alt="sponsor-5">
+                        <img src="images/e6.svg" alt="sponsor-6">
+                        <img src="images/e7.svg" alt="sponsor-7">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="second-container">
-            <img src="" alt="home-image">
-        </div>
-        <div class="third-container">
-            <p>Trusted by over 2K+ clients across the world</p>
-            <div class="sponsor">
-                <img src="" alt="sponsor-1">
-                <img src="" alt="sponsor-2">
-                <img src="" alt="sponsor-3">
-                <img src="" alt="sponsor-4">
-                <img src="" alt="sponsor-5">
-                <img src="" alt="sponsor-6">
-                <img src="" alt="sponsor-7">
-            </div>
+        <div class="overflow-hidden">
+            <img src="images/svg.svg" alt="overflow-hidden">
         </div>
     </section>
 
     <!-- Services -->
-    <section id="services">
-        <h2>What We Do?</h2>
-        <h3>The service we offer is specifically designed to meet your needs.</h3>
-        <div class="box">
-            <img src="" alt="service-1">
-            <h3>Web Desing</h3>
-            <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.</p>
-            <a href="/" class="service-link">Learn More</a>
-        </div>
-        <div class="box">
-            <img src="" alt="service-2">
-            <h3>Graphic Design</h3>
-            <p>Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.</p>
-            <a href="/" class="service-link">Learn More</a>
-        </div>
-        <div class="box">
-            <img src="" alt="service-3">
-            <h3>3D Animation</h3>
-            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.</p>
-            <a href="/" class="service-link">Learn More</a>
+    <section class="services" id="services">
+        <div class="max-width">
+            <div class="services-content">
+                <div class="first-container">
+                    <h2>What We Do?</h2>
+                    <h3>The service we offer is specifically designed to meet your needs.</h3>
+                </div>
+                <div class="second-container">
+                    <div class="box">
+                        <img src="images/service-1.svg" alt="service-1">
+                        <h3>Web Desing</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget. Fusce dapibus tellus.</p>
+                        <a href="/" class="service-link">Learn More</a>
+                    </div>
+                    <div class="box">
+                        <img src="images/service-2.svg" alt="service-2">
+                        <h3>Graphic Design</h3>
+                        <p>Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere consectetur.</p>
+                        <a href="/" class="service-link">Learn More</a>
+                    </div>
+                    <div class="box">
+                        <img src="images/service-3.svg" alt="service-3">
+                        <h3>3D Animation</h3>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna scelerisque.</p>
+                        <a href="/" class="service-link"><span>Learn More</span></a>
+                    </div>
+                </div>
+            </div>
         </div>    
     </section>
 
     <!-- Strategy -->
-    <section id="strategy">
-        <div class="thrist-container">
-            <h2>Our Strategy</h2>
-            <h3>Here are 3 working steps to organize our projects.</h3>
-            <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis.</p>
-            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <div class="commom-btn">
-                <a href="/" class="btn-link">Learn More</a>
+    <section class="strategy" id="strategy">
+        <div class="max-width">
+            <div class="strategy-content">
+                <div class="thrist-container">
+                    <h2>Our Strategy</h2>
+                    <h3>Here are 3 working steps to organize our projects.</h3>
+                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis.</p>
+                    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <div class="commom-btn">
+                        <a href="/" class="btn-link">Learn More</a>
+                    </div>
+                </div>
+                <div class="second-container">
+                    <div class="card">
+                        <div class="box">
+                            <div class="icon">01</div>
+                            <div class="info">
+                                <h4>Collect Ideas</h4>
+                                <p>Nulla vitae elit libero pharetra augue dapibus.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <div class="icon">02</div>
+                            <div class="info">
+                                <h4>Data Analysis</h4>
+                                <p>Vivamus sagittis lacus vel augue laoreet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <div class="icon">03</div>
+                            <div class="info">
+                                <h4>Finalize Product</h4>
+                                <p>Cras mattis consectetur purus sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
             </div>
         </div>
-        <div class="second-container">
-            <div class="card">
-                <div class="box">
-                    <div class="icon">01</div>
-                    <div class="info">
-                        <h4>Collect Ideas</h4>
-                        <p>Nulla vitae elit libero pharetra augue dapibus.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <div class="icon">02</div>
-                    <div class="info">
-                        <h4>Data Analysis</h4>
-                        <p>Vivamus sagittis lacus vel augue laoreet.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <div class="icon">03</div>
-                    <div class="info">
-                        <h4>Finalize Product</h4>
-                        <p>Cras mattis consectetur purus sit amet.</p>
-                    </div>
-                </div>
-            </div>
-        </div>    
     </section>
 
     <!-- Benefits -->
@@ -419,5 +439,6 @@
             </form>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/bfac27b3af.js" crossorigin="anonymous"></script>
 </body>
 </html>
